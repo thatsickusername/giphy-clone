@@ -1,0 +1,21 @@
+  
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .gifsList {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif {
+    padding: 0 2px;
+  }
+
+  .loadingAnim {
+    color: white;
+  }
