@@ -1,15 +1,12 @@
 
 import './app.css'
-import Navbar from './components/Navbar'
-import Random from './components/Random'
-import Trending from './components/Trending'
+import HomePage from './components/HomePage'
+import './css/Navbar.css'
 
 function App() {
     return (
         <div className="container">
-            <Navbar/>
-            <Trending/>
-            <Random/>
+            <HomePage/>
         </div>
     );
 }

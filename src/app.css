@@ -13,3 +13,26 @@ body {
   background-color: rgb(18, 18, 18);
   color: white;
   }
+
+  .Trending {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.trendingText h3{
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+
+.gifList { 
+  column-count: 4;
+  column-gap: 1em;
+}
+  
+.gif {
+  display: inline-block;
+  margin: 0 0 0.8em;
+  width: 100%;
+  border-radius: 4px;
+}
