@@ -1,10 +1,15 @@
-import Giphy from './components/Giphy'
+
 import './app.css'
+import Navbar from './components/Navbar'
+import Random from './components/Random'
+import Trending from './components/Trending'
 
 function App() {
     return (
-        <div>
-            <Giphy/>
+        <div className="container">
+            <Navbar/>
+            <Trending/>
+            <Random/>
         </div>
     );
 }

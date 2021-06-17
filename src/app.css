@@ -1,21 +1,16 @@
-  
-body {
-    background-color: black;
-    color: white;
   }
-  
-  .gifsList {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .gif {
-    padding: 0 2px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .loadingAnim {
-    color: white;
+.container {
+    margin: 0 auto;
+    width: 1040px;
+}
+
+body {
+  background-color: rgb(18, 18, 18);
+  color: white;
   }

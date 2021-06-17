@@ -1,0 +1,59 @@
+.Trending {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.trendingText {
+    flex: 1;
+}
+
+.trendingText h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.trendingGIFs {
+    flex: 4;
+    overflow-x: scroll;
+}
+
+.trendingGIFs::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .trendingGIFs::-webkit-scrollbar-track {
+    background-color: rgb(36, 36, 36);
+    border-radius: 5px;
+  }
+
+  .trendingGIFs::-webkit-scrollbar-thumb {
+    background-color: rgb(102, 102, 102);
+    border-radius: 5px;
+  }
+  
+  .trendingGIFs::-webkit-scrollbar-thumb:hover {
+    background: rgb(134, 134, 134); 
+  }
+
+.trendingRow {
+    height: 100%;
+    width: 6800px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;    
+}
+
+.indvWrapper {
+    height: 100%;
+    width: auto;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.indvWrapper img{
+    height: 100%
+}

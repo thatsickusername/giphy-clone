@@ -1,0 +1,53 @@
+.Navbar {
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBar h1 {
+    font: 50px white;
+    letter-spacing: 2px;
+}
+
+.topBar div {
+    background-color: whitesmoke;
+    height: 60%;
+    width: 200px;
+    color: black;
+    display: grid;
+}
+.topBar div h3 {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.bottomBar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.bottomBar input {
+    flex: 18;
+    font-size: 27px;
+    padding: 17px;
+    height: 80%;
+}
+
+.bottomBar button {
+    flex: 1;
+    background: linear-gradient(45deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font: 27px bold;
+    color: white;
+    height: 80%;
+}
+
+
