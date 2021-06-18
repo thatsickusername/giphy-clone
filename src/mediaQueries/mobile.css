@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgb(18, 18, 18);    }    
+
+    .container {
+        width: 90%;
+    }
+
+    .gifList { 
+        column-count: 2;
+        column-gap: 0.8em;
+      }
+        
+      .gif {
+        margin: 0 0 0.5em;
+        border-radius: 6px;
+      }
+
+      .topBar div {
+        width: 140px;
+    }
+
+    .bottomBar input {
+        width: 100%;
+    }
+
+    .bottomBar button {
+        flex: 4;
+    }
+
+}
