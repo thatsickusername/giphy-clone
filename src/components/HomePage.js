@@ -95,7 +95,7 @@ function HomePage() {
                 <div className="topBar">
                     <h1>GIPHY</h1>
                     <div >
-                        <h3> user login</h3>
+                        <h3> <a href="https://giphy.com/login">user login<a/></h3>
                     </div>
                 </div>
 
